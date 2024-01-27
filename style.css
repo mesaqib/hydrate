@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+}
+body {
+  font-family: "Libre Baskerville", serif;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 90vw;
+  margin-inline: auto;
+}
+header {
+  background-color: #032427;
+  height: 50vmax;
+  color: white;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4vmax;
+  /* background-color: lightblue; */
+}
+nav .logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.2vw;
+}
+nav .logo img {
+  height: 1.5vmax;
+}
+nav .menu ul {
+  display: flex;
+  gap: 3vw;
+  color: rgb(184, 184, 184);
+  font-family: sans-serif;
+  font-size: 1vw;
+}
+nav .menu ul li {
+  list-style: none;
+  cursor: pointer;
+}
+nav .menu ul .active {
+  color: white;
+}
+
+.btn button {
+  border: none;
+  background-color: #ff4d03;
+  border-radius: 50px;
+  width: 7vw;
+  height: 2.5vmax;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 1vw;
+}
+.header_section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_section .content {
+  text-align: center;
+  width: 50vw;
+  position: relative;
+}
+.header_section .content h1 {
+  font-size: 3vw;
+  margin-top: 6vmax;
+  opacity: 0;
+  scale: 0;
+}
+.header_section .content .btn {
+  display: inline-block;
+  margin-bottom: 2vmax;
+  opacity: 0;
+  scale: 0;
+}
+.header_section .content p {
+  margin-top: 2vmax;
+  margin-bottom: 2vmax;
+  font-size: 1vw;
+  opacity: 0;
+  scale: 0;
+}
+.header_section .content .bottle_img {
+  /* position: absolute; */
+  display: flex;
+  flex-direction: column;
+  margin-top: -14vmax;
+}
+
+.header_section .content .bottle_cap {
+  height: 4.4vmax;
+  margin-left: -0.3vw;
+  z-index: 1;
+   
+}
+.header_section .content .bottle_down {
+  height: 40vmax;
+  margin-top: -5vmax;
+}
+
+.section2 {
+  background-color: #083b3f;
+  height: 50vmax;
+  margin-top: -11.5vmax;
+  position: relative;
+  display: flex;
+  z-index: -1;
+}
+.section2 .left,
+.section2 .right {
+  width: 50%;
+  object-fit: cover;
+}
+.section2 .right img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+/* .section2 .left{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.section2 .left img{
+  height: 50px;
+  position: relative;
+  z-index: 10;
+} */
+
+footer{
+  background-color: white;
+  height: 5vmax;
+  padding-top: 50px;
+  display: flex;
+  color: black;
+  justify-content: center;
+  align-items: center;
+}
+footer img{
+  height: 50px;
+}
